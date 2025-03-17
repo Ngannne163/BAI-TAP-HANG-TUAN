@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Baitapthuchanh1</string>
+    <string name="User_name">Họ và tên</string>
+    <string name="Tieu_de">BÀI TẬP THỰC HÀNH 01</string>
+    <string name="Age">Tuổi </string>
+    <string name="KiemTra">Kiểm tra </string>
+</resources>
