@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "636641025889",
+    "project_id": "baitaptuan4-e4cb4",
+    "storage_bucket": "baitaptuan4-e4cb4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636641025889:android:866ea2cf2e1226e00bef20",
+        "android_client_info": {
+          "package_name": "com.example.baitaptuan4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA85jYcW7r-bLYE4gvk8Hn4WVuaOfo19QY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
