@@ -95,7 +95,7 @@ fun ProfileScreen(navController: NavController, LoginViewModel: LoginViewModel =
         Spacer(modifier = Modifier.height(10.dp))
 
         Button(
-            onClick = {},
+            onClick = {navController.navigate("Goodbye")},
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(8.dp),
@@ -106,8 +106,6 @@ fun ProfileScreen(navController: NavController, LoginViewModel: LoginViewModel =
         {
             Text(
                 text = "Exit",
-                modifier = Modifier
-                    .clickable(onClick = { navController.navigate("Goodbye") }),
                 fontSize = 20.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color.White)
