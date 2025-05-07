@@ -1,9 +1,10 @@
 package com.example.baitaptuan4.screen
 
 
+
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
@@ -20,7 +21,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
@@ -79,26 +79,10 @@ fun DetailScreen(navController: NavHostController)
             fontSize = 20.sp,
             textAlign = TextAlign.Center)
 
-        Box(
-            modifier = Modifier
-                .size(height = 400.dp, width = 300.dp)
-                .background(
-                    brush = Brush.verticalGradient(
-                        colors = listOf(
-                            Color(0xFF74B1E5),
-                            Color(0xFF1D3577)
-                        )
-                    )
-                ),
-            contentAlignment = Alignment.Center
-        ){
-            Text(
-                text = "The only way to do great work \nis to love what you do.",
-                fontSize = 50.sp,
-                textAlign = TextAlign.Center,
-                color = Color.White
-            )
-        }
+            Image(
+                painter = painterResource(R.drawable.detail),
+                contentDescription = "Detail",
+                modifier = Modifier.size(520.dp))
 
             Button(
                 onClick = {navController.navigate("RootScreen")},
